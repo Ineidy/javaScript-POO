@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(205, 247, 248, 0.651);
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: rgb(205, 236, 235);
+}
+.contenido{
+    
+    width: 400px;
+    height: 600px; 
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+h3{
+    margin: 20px;
+}
+.envir{
+    margin-top: 100px;
+}
+input{
+    border-color:  rgb(0, 132, 255);
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 190px;
+    height: 30px;
+}
+button{
+    border-color: rgb(0, 132, 255) ;
+    background-color:  rgb(160, 250, 238);
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+}
