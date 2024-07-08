@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Formulario</title>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <article class="contenedor">
-        <div class="formulario">
+        <form id="contenidor" class="formulario">
             <div class="contenido">
                 <div class="title">
                     <h1>Formulario Actividad POO</h1>
                 </div>
                 <div class="contenedorNombre">
                     <h3>Nombre</h3>
-                    <input type="text" placeholder="Escriba su nombre:">
+                    <input id="name" name="name" type="text" placeholder="Escriba su nombre:">
                 </div>
                 <div class="contenedorEdad">
                     <h3>Edad</h3>
-                    <input type="text" placeholder="Escriba su Edad:">
+                    <input id="edad" name="edad" type="text" placeholder="Escriba su Edad:">
                 </div>
                 <div class="contenedorGenero">
                     <h3>Genero</h3>
-                    <input type="text" placeholder="Femenino o Masculino:">
+                    <input id="genero" name="genero" type="text" placeholder="Femenino o Masculino:">
                 </div>
                 <div class="envir">
-                    <button>Enviar</button>
+                    <button type="submit">Enviar</button>
                 </div>
             </div>
-        </div>
+        </form>
     </article>
 </body>
 </html>
