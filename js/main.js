@@ -6,7 +6,6 @@ class Persona {
     }
     saludo() {
         console.log(`Hola ${this.nombre}`);
-        alert(`Hola ${this.nombre}`);
     }
 }
 
@@ -22,3 +21,6 @@ document.querySelector('#contenidor').addEventListener('submit', function(event)
     document.querySelector('#edad').value = '';
     document.querySelector('#genero').value = '';
 });
+
+let persona1 = new Persona("Ineidy", 17, "Femenino")
+persona1.saludo();
